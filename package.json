@@ -1,0 +1,21 @@
+{
+  "name": "arc-agent-market",
+  "version": "0.1.0",
+  "description": "On-chain agent marketplace for Arc — Layer 3 discovery layer",
+  "type": "module",
+  "scripts": {
+    "mcp": "tsx src/mcp/server.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "viem": "^2.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "tsx": "^4.0.0"
+  }
+}

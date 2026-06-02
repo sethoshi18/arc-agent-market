@@ -1,0 +1,38 @@
+{
+  "network": "Arc Testnet",
+  "chainId": 5042002,
+  "rpc": "https://rpc.testnet.arc.network",
+  "explorer": "https://testnet.arcscan.app",
+  "deployedAt": "2026-06-02",
+  "deployer": "0xE7D97cB07A093030e3D825518EC4e5708b6198e9",
+  "stack": {
+    "layer1_identity": {
+      "contract": "AgentIdentity",
+      "standard": "ERC-8004",
+      "address": "0x5Bef356f89425823FC7eebB3A6ED1A678F3b8233",
+      "repo": "sethoshi18/arc-agent-payments",
+      "explorerUrl": "https://testnet.arcscan.app/address/0x5Bef356f89425823FC7eebB3A6ED1A678F3b8233"
+    },
+    "layer2_commerce": {
+      "contract": "AgentJob",
+      "standard": "ERC-8183",
+      "address": "0xD698d15F776279c0213444a779941e8E0Cbe5094",
+      "repo": "sethoshi18/arc-agent-payments",
+      "explorerUrl": "https://testnet.arcscan.app/address/0xD698d15F776279c0213444a779941e8E0Cbe5094"
+    },
+    "layer3_discovery": {
+      "contract": "AgentMarket",
+      "address": "0x6BAf93EB026b7BC3db651065302D1934Ad577ec1",
+      "txHash": "0x54d73be762102c6cdee5dd2b677a5060ad0a259521977bf0d952e34f55bc7a4e",
+      "block": 45145189,
+      "gasUsed": 2342983,
+      "explorerUrl": "https://testnet.arcscan.app/address/0x6BAf93EB026b7BC3db651065302D1934Ad577ec1"
+    }
+  },
+  "tokens": {
+    "USDC": {
+      "address": "0x3600000000000000000000000000000000000000",
+      "decimals": 6
+    }
+  }
+}
